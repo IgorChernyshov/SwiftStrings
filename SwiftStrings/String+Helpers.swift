@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: - Helpers
 extension String {
 
 	/// Remove a prefix if it exists.
@@ -36,5 +37,23 @@ extension String {
 	/// - Returns: Check result.
 	func containsAny(of array: [String]) -> Bool {
 		array.contains(where: self.contains)
+	}
+
+	/// Returns a string with given prefix. If the prefix already exists it won't be doubled.
+	/// - Parameter prefix: String prefix.
+	/// - Returns: A string with given prefix.
+	func withPrefix(_ prefix: String) -> String {
+		guard !self.hasPrefix(prefix) else { return self }
+		return prefix + self
+	}
+
+	/// Check if the string is a number. Returns true if it is a number and false if it is not.
+	var isNumeric: Bool {
+		Double.init(self) != nil
+	}
+
+	/// String splitted by linebreak symbol into an array of strings.
+	var lines: [String] {
+		self.components(separatedBy: "\n")
 	}
 }
