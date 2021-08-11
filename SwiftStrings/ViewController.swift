@@ -15,8 +15,11 @@ final class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// firstTest()
-		secondTest()
+//		firstTest()
+//		secondTest()
+//		testLabel.bounceOut(duration: 2)
+//		thirdTest()
+//		fourthTest()
 	}
 
 	private func firstTest() {
@@ -38,5 +41,15 @@ final class ViewController: UIViewController {
 		attributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 32), range: NSRange(location: 10, length: 4))
 		attributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 40), range: NSRange(location: 15, length: 6))
 		testLabel.attributedText = attributedString
+	}
+
+	private func thirdTest() {
+		5.times { print("foo") }
+	}
+
+	private func fourthTest() {
+		var array = [1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1]
+		array.remove(item: 3)
+		print(array)
 	}
 }

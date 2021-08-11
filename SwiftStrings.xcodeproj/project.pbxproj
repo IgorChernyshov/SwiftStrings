@@ -14,6 +14,11 @@
 		D6D0A9F926BC3BED0092733C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D0A9F826BC3BED0092733C /* Assets.xcassets */; };
 		D6D0A9FC26BC3BED0092733C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D0A9FA26BC3BED0092733C /* LaunchScreen.storyboard */; };
 		D6D0AA0526BC3C0C0092733C /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA0426BC3C0C0092733C /* String+Helpers.swift */; };
+		D6D0AA0926C033E70092733C /* BinaryInteger+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA0826C033E70092733C /* BinaryInteger+Helpers.swift */; };
+		D6D0AA0D26C034CD0092733C /* Collection+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA0C26C034CD0092733C /* Collection+Helpers.swift */; };
+		D6D0AA1026C3CD800092733C /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA0F26C3CD800092733C /* UIView+Animation.swift */; };
+		D6D0AA1526C3CF4B0092733C /* Int+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA1426C3CF4B0092733C /* Int+Helpers.swift */; };
+		D6D0AA1926C3D06C0092733C /* Array+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA1826C3D06C0092733C /* Array+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		D6D0A9FB26BC3BED0092733C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6D0A9FD26BC3BED0092733C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D0AA0426BC3C0C0092733C /* String+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
+		D6D0AA0826C033E70092733C /* BinaryInteger+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BinaryInteger+Helpers.swift"; sourceTree = "<group>"; };
+		D6D0AA0C26C034CD0092733C /* Collection+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Helpers.swift"; sourceTree = "<group>"; };
+		D6D0AA0F26C3CD800092733C /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		D6D0AA1426C3CF4B0092733C /* Int+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Helpers.swift"; sourceTree = "<group>"; };
+		D6D0AA1826C3D06C0092733C /* Array+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +71,12 @@
 				D6D0A9EF26BC3BEC0092733C /* AppDelegate.swift */,
 				D6D0A9F126BC3BEC0092733C /* SceneDelegate.swift */,
 				D6D0A9F326BC3BEC0092733C /* ViewController.swift */,
+				D6D0AA0826C033E70092733C /* BinaryInteger+Helpers.swift */,
 				D6D0AA0426BC3C0C0092733C /* String+Helpers.swift */,
+				D6D0AA0C26C034CD0092733C /* Collection+Helpers.swift */,
+				D6D0AA0F26C3CD800092733C /* UIView+Animation.swift */,
+				D6D0AA1426C3CF4B0092733C /* Int+Helpers.swift */,
+				D6D0AA1826C3D06C0092733C /* Array+Helpers.swift */,
 				D6D0A9F526BC3BEC0092733C /* Main.storyboard */,
 				D6D0A9F826BC3BED0092733C /* Assets.xcassets */,
 				D6D0A9FA26BC3BED0092733C /* LaunchScreen.storyboard */,
@@ -141,9 +156,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D0AA0526BC3C0C0092733C /* String+Helpers.swift in Sources */,
+				D6D0AA0D26C034CD0092733C /* Collection+Helpers.swift in Sources */,
 				D6D0A9F426BC3BEC0092733C /* ViewController.swift in Sources */,
 				D6D0A9F026BC3BEC0092733C /* AppDelegate.swift in Sources */,
+				D6D0AA1926C3D06C0092733C /* Array+Helpers.swift in Sources */,
 				D6D0A9F226BC3BEC0092733C /* SceneDelegate.swift in Sources */,
+				D6D0AA1526C3CF4B0092733C /* Int+Helpers.swift in Sources */,
+				D6D0AA1026C3CD800092733C /* UIView+Animation.swift in Sources */,
+				D6D0AA0926C033E70092733C /* BinaryInteger+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
