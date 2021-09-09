@@ -19,6 +19,7 @@
 		D6D0AA1026C3CD800092733C /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA0F26C3CD800092733C /* UIView+Animation.swift */; };
 		D6D0AA1526C3CF4B0092733C /* Int+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA1426C3CF4B0092733C /* Int+Helpers.swift */; };
 		D6D0AA1926C3D06C0092733C /* Array+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA1826C3D06C0092733C /* Array+Helpers.swift */; };
+		D6D30D7926E9E1E7006BEC1E /* UIImage+Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D30D7826E9E1E7006BEC1E /* UIImage+Initializers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D6D0AA0F26C3CD800092733C /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		D6D0AA1426C3CF4B0092733C /* Int+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Helpers.swift"; sourceTree = "<group>"; };
 		D6D0AA1826C3D06C0092733C /* Array+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Helpers.swift"; sourceTree = "<group>"; };
+		D6D30D7826E9E1E7006BEC1E /* UIImage+Initializers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Initializers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,18 +71,19 @@
 			isa = PBXGroup;
 			children = (
 				D6D0A9EF26BC3BEC0092733C /* AppDelegate.swift */,
-				D6D0A9F126BC3BEC0092733C /* SceneDelegate.swift */,
-				D6D0A9F326BC3BEC0092733C /* ViewController.swift */,
-				D6D0AA0826C033E70092733C /* BinaryInteger+Helpers.swift */,
-				D6D0AA0426BC3C0C0092733C /* String+Helpers.swift */,
-				D6D0AA0C26C034CD0092733C /* Collection+Helpers.swift */,
-				D6D0AA0F26C3CD800092733C /* UIView+Animation.swift */,
-				D6D0AA1426C3CF4B0092733C /* Int+Helpers.swift */,
 				D6D0AA1826C3D06C0092733C /* Array+Helpers.swift */,
-				D6D0A9F526BC3BEC0092733C /* Main.storyboard */,
 				D6D0A9F826BC3BED0092733C /* Assets.xcassets */,
-				D6D0A9FA26BC3BED0092733C /* LaunchScreen.storyboard */,
+				D6D0AA0826C033E70092733C /* BinaryInteger+Helpers.swift */,
+				D6D0AA0C26C034CD0092733C /* Collection+Helpers.swift */,
 				D6D0A9FD26BC3BED0092733C /* Info.plist */,
+				D6D0AA1426C3CF4B0092733C /* Int+Helpers.swift */,
+				D6D0A9FA26BC3BED0092733C /* LaunchScreen.storyboard */,
+				D6D0A9F526BC3BEC0092733C /* Main.storyboard */,
+				D6D0A9F126BC3BEC0092733C /* SceneDelegate.swift */,
+				D6D0AA0426BC3C0C0092733C /* String+Helpers.swift */,
+				D6D30D7826E9E1E7006BEC1E /* UIImage+Initializers.swift */,
+				D6D0AA0F26C3CD800092733C /* UIView+Animation.swift */,
+				D6D0A9F326BC3BEC0092733C /* ViewController.swift */,
 			);
 			path = SwiftStrings;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D30D7926E9E1E7006BEC1E /* UIImage+Initializers.swift in Sources */,
 				D6D0AA0526BC3C0C0092733C /* String+Helpers.swift in Sources */,
 				D6D0AA0D26C034CD0092733C /* Collection+Helpers.swift in Sources */,
 				D6D0A9F426BC3BEC0092733C /* ViewController.swift in Sources */,
